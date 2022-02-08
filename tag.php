@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <main id="content" role="main">
+    <main id="content">
         <header class="header">
             <h1 class="entry-title" itemprop="name"><?php single_term_title(); ?></h1>
             <div class="archive-meta" itemprop="description"><?php if ('' != the_archive_description()) {

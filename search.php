@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <main id="content" role="main">
+    <main id="content">
         <?php if (have_posts()) : ?>
             <header class="header">
                 <h1 class="entry-title"
