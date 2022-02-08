@@ -1,0 +1,40 @@
+### WordPress Stuff ###
+wp-config.php
+/wp-content/blogs.dir
+/wp-content/uploads
+/wp-content/cache
+/wp-content/wp-cache-config.php
+*.htaccess
+
+
+### PHP storm/ IntelliJ ###
+.idea
+.idea/*
+.idea/workspace.xml
+atlassian-ide-plugin.xml
+.settings
+*.iml
+.npmrc
+
+### vim ###
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+### Emacs ###
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+### misc ###
+.vscode/
+.vscode/*
+/node_modules/
+*.DS_Store
