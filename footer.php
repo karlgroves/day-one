@@ -2,7 +2,7 @@
 </div>
 <footer id="footer">
     <div id="copyright">
-        &copy; <?php echo esc_html(date_i18n(__('Y', 'blankslate'))); ?> <?php echo esc_html(get_bloginfo('name')); ?>
+        &copy; <?php echo esc_html(date_i18n(__('Y', 'dayone'))); ?> <?php echo esc_html(get_bloginfo('name')); ?>
     </div>
 </footer>
 </div>
