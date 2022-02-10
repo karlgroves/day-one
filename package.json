@@ -1,0 +1,34 @@
+{
+  "name": "DayOne",
+  "version": "0.0.1",
+  "title": "Day One WordPress Theme",
+  "description": "An accessibility-first barebones WordPress theme based on Blankslate",
+  "scripts": {
+    "test": "",
+    "start": ""
+  },
+  "keywords": "Accessibility, WAI-ARIA, WCAG, a11y, WordPress",
+  "author": {
+    "name": "Karl Groves",
+    "email": "karlgroves@gmail.com",
+    "url": "https://www.karlgroves.com"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:karlgroves/day-one.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karlgroves/day-one/issues"
+  },
+  "licenses": [
+    {
+      "type": "UNLICENSED"
+    }
+  ]
+}

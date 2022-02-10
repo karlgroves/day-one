@@ -1,0 +1,83 @@
+html, body, body * {
+  font-family: $font-family-sans;
+  line-height: $line-height;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
+}
+
+ul{
+  list-style-type: square;
+}
+
+ol, ul {
+  margin-left: .75em;
+  margin-top: 0;
+  margin-bottom: 10.5px
+}
+
+ul ul, ol ul, ul ol, ol ol {
+  margin-bottom: 0
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+  border-bottom: 1px dotted #b4bcc2;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: 80%;
+}
+
+code pre, pre code, kbd, samp {
+  color: #000;
+  font-family: $font-family-mono;
+  word-wrap: break-word;
+  direction: ltr /* rtl:ignore */;
+  unicode-bidi: bidi-override;
+}
+
+/**
+ * Links
+ */
+
+a {
+  background: transparent;
+}
+
+a:link {  }
+
+a:visited {  }
+
+a:hover {  }
+
+a:focus {  }
+
+a:active {  }

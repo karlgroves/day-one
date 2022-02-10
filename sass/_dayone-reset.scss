@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+q {
+  display: inline;
+  font-style: italic;
+}
+
+q:before {
+  content: '&quot;';
+  font-style: normal;
+}
+
+q:after {
+  content: '&quot;';
+  font-style: normal;
+}
+
+textarea, input[type="text"], input[type="button"], input[type="submit"], input[type="reset"], input[type="search"], input[type="password"] {
+  appearance: none;
+  border-radius: 0;
+}
+
+big {
+  font-size: 120%;
+}
+
+small, sup, sub {
+  font-size: 80%;
+}
+
+sup {
+  vertical-align: super;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+dd {
+  margin-left: 20px;
+}
+
+kbd, tt {
+  font-family: $font-family-mono;
+  font-size: 12px;
+}
+
+ins {
+  text-decoration: underline;
+}
+
+del, strike, s {
+  text-decoration: line-through;
+}
+
+dt {
+  font-weight: bold;
+}
+
+address, cite, var {
+  font-style: italic;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block
+}
+
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+  cursor: pointer;
+}
+
+[tabindex="0"]:focus, [tabindex="0"]:hover, a:focus, a:hover, *:focus {
+  outline: 1px dotted;
+  cursor: pointer;
+}

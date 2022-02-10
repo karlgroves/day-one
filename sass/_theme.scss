@@ -1,0 +1,145 @@
+.post{}
+
+.no-results{}
+
+
+.not-found{}
+
+
+.header{}
+
+
+.footer{}
+
+
+.entry-title{}
+
+
+.entry-content{}
+
+
+.archive-meta{}
+
+
+.nav-above{}
+
+
+.nav-previous{}
+
+
+.nav-next{}
+
+
+.entry-attachment{}
+
+
+.attachment{}
+
+
+.attachment-full{}
+
+
+.entry-caption{}
+
+
+.author{}
+
+
+.comments-list{}
+
+
+.comments-title{}
+
+
+.comments-nav-above{}
+
+
+.paginated-comments-links{}
+
+
+.comments-nav-below{}
+
+
+.trackbacks-list{}
+
+
+.entry-links{}
+
+
+.cat-links{}
+
+
+.tag-links{}
+
+
+.author{}
+
+
+.vcard{}
+
+
+.meta-sep{}
+
+
+.entry-summary{}
+
+
+.hfeed{}
+
+
+.widget-area{}
+
+
+.ping-count{}
+
+
+.notice{}
+
+
+.notice-info{}
+
+
+
+
+.sr-only{}
+
+
+.more-link{}
+
+
+.widget-container{}
+
+
+.widget-title{}
+
+
+.offscrn{}
+
+.meta-nav{
+   .previous{
+     // &larr;
+   }
+   .next{
+     // &rarr;
+   }
+
+}
+
+.skip-link {
+  @include offscreen;
+}
+
+.skip-link:hover, .skiplink:focus {
+  clip: auto;
+  height: auto;
+  overflow: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #FEFEFE;
+  color: #474777;
+  margin: .3em 3em;
+  padding: .3em 2em;
+  border: 1px solid $links_and_buttons_color;
+}
